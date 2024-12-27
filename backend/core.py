@@ -21,7 +21,12 @@ def run_llm(query: str):
     combine_docs_chain = create_stuff_documents_chain(chat, retrieval_qa_chat_prompt)
     retrival_chain = create_retrieval_chain(retriever=doc_search.as_retriever(), combine_docs_chain=combine_docs_chain)
     result = retrival_chain.invoke(input={"input": query})
-    return result
+    formatted_result = {
+        "query": result["input"],
+        "result": result["answer"],
+        "source_documents": result["context"],
+    }
+    return formatted_result
 
 
 if __name__ == '__main__':

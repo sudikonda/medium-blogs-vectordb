@@ -16,6 +16,8 @@ faiss-cpu = "*"
 pypdf = "*"
 bs4 = "*"
 requests = "*"
+streamlit = "*"
+streamlit-chat = "*"
 
 [dev-packages]
 
