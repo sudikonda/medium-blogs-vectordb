@@ -1,0 +1,507 @@
+blog_title: What does the car in 2035 look like? blog_publication date:
+Dec 21, 2023 blog_author: Arjun Singh blog_url:
+https://medium.com/99p-labs/car-at-2035-55ab8470404b
+
+*The article is a reflection of the capstone undertaken by the master's
+students (*[*Adri*](https://www.linkedin.com/in/adrimr/)*,*
+[*Arjun*](https://www.linkedin.com/in/arjunsinghkumar/)*,*
+[*Bonny*](https://www.linkedin.com/in/bonnyphilip/)*,*
+[*Charu*](https://www.linkedin.com/in/charu-dixit/)*,*
+[*Eshaan*](https://www.linkedin.com/in/eshaanrampal/)*) in the Product
+Management Program at the Tepper School of Business, Carnegie Mellon
+University in collaboration with 99P Labs for developing a product
+vision for auto manufacturers under the guidance of Ryan Lingo, Kent
+Broestl and*
+
+*.*
+
+## 1.0 Problem Statement
+
+**Transforming cars that have traditionally been considered a liability,
+into an asset by generating greater value and reducing the cost of
+ownership**
+
+![](https://miro.medium.com/v2/resize:fit:700/1*K0AOISZGqUFP_PCKQPlwRw.png)
+
+**Meta AI-generated imagery, showcasing a car from the future capable of
+being a theater, a community center, a haven, and a transformable
+flatbed for construction work.**
+
+## 1.1 Executive Summary
+
+Vehicles since World War 1 haven't fundamentally changed till now. Aside
+from safety upgrades and creature comforts such as heated seats the car
+fundamentally drives on the same ICE (Internal Combustion Engine)
+technology. Now, however, with the advent of ADAS (Advanced Driver
+Assistance Systems) and batteries powering up our drives, the car is
+getting a revamp. The pace of acceleration is ever-increasing courtesy
+of players such as
+
+and
+
+. However, what has also risen is the cost of ownership, with the
+average American saving for [**almost 42
+weeks**](https://finance.yahoo.com/news/average-american-spends-much-car-120017501.html).
+Our product vision considers needs arising in the market that will shape
+tomorrow's car with the underlying intent of making cars more
+affordable, valuable, and accessible for all.
+
+## 1.2 Introduction
+
+It's going to distributed computing cluster and mobile towers that will
+have no fixed ownership model with different components for rent or sale
+throughout its lifecycle. Or maybe not?
+
+It was early afternoon, there was Pizza on the side table and the team
+huddled around the conference room with
+[Bonny](https://www.linkedin.com/in/bonnyphilip/) on the screen joining
+virtually. It was our first conversation with the P99 Labs team sitting
+across the table on a rather abstract question. How will the car in 15
+years work? What would it look like? We knew the automotive field was
+evolving at a shocking pace thanks to Tesla making electric vehicles
+common with their supercharger network and the world setting deadlines
+for migrating to electric vehicles but akin to the jump from bulky
+handheld phones that could barely text in the 1990s to the powerful
+Samsungs and iPhones of today, we knew cars themselves would evolve as a
+product. The question remained how?
+
+> *Like all innovation, there is a need that drives it and today's cars
+> are riddled with complications. From purchase, performance, and usage
+> to disposal, the entire car lifecycle has challenges that create
+> opportunities to make getting around a better experience.*
+
+## 1.3 Refresher on the auto industry
+
+![](https://miro.medium.com/v2/resize:fit:700/1*VfjzwJzD11XoNBoTpRDLmg.png)
+
+**The Model N on the left from 1906 and the Model T on the right from
+1925**
+
+Before we begin it is imperative to size down a clear problem statement
+of what we wish to prognosticate. One can often use history to gauge
+trends, and so we did. What were the key moments in the auto industry,
+we asked ourselves and what did they inform us?
+
+1.  **Mass Production and Model T (Post 1908)\
+    **Ford revolutionized the industry with the introduction of the
+    Model T, which was the first automobile produced using assembly line
+    techniques. This innovation dramatically reduced the cost of
+    manufacturing, making cars more affordable and accessible to the
+    general public. To put things in perspective the best-selling car
+    before the model T was the model N with 7000 made. By the end over
+    15,000,000 model Ts had been made.\
+    **Key Learning:** Continued emphasis on efficient manufacturing
+    processes, automation, and economies of scale will always play a
+    crucial role.
+2.  **The rise of the Japanese automotive Industry's rise (1970s through
+    80s)\
+    **Toyota, Honda, and Nissan introduced high-quality, fuel-efficient,
+    and reliable cars that captured a substantial market share
+    worldwide. This period saw the emergence of Japanese manufacturing
+    principles like "Just-In-Time" production and Total Quality
+    Management, influencing manufacturing practices globally.\
+    **Key Learning:** Global competition and innovation will remain key
+    drivers in the industry.
+3.  **The Electric Vehicle Revolution (Post 2003)**\
+    We saw a growing emphasis on sustainability and environmental
+    concerns with Tesla, founded in 2003, played a pivotal role in
+    popularizing electric cars and challenging traditional automotive
+    norms. The vehicles augmented with self-driving capabilities on
+    marked freeways and their charging network are changing the status
+    quo of how a car operates.\
+    **Key Learning:** Innovation at its heart is driven by economic
+    realities and consumer needs. Higher efficient systems with reduced
+    cost of ownership will trump existing inefficiencies in the market.
+
+**Despite the shell and features evolving over the last century, the car
+ownership and operations model has stayed pretty much the same. The most
+exciting advancement that has occurred is the financing and leasing
+options of the 2000s.**
+
+## 1.4 First Principles
+
+The odd thing about predicting the car of the future was every major
+automotive brand in the world saw the evolution of the car their way.
+[BMW](https://www.bmw.com/en/innovation/car-of-the-future.html)
+presented it as the meeting spot for friends, while
+[Audi](https://www.progress.audi/progress/en/concept-cars/audi-skysphere-concept.html)
+presented it as the default choice of travel for its comfort and
+convenience, and others presented the no-ownership model where a car
+wasn't owned but rented for use throughout its life. These visions
+albeit interesting were insufficient in solving our problem since they
+were centered around branding and not market needs.
+
+We needed to ground our ideas in facts and trends like true business
+students, being design-centric alone would be too pedantic after all.
+Being students of Carnegie Mellon having been instructed with frameworks
+upon frameworks we decided to discard them and start with a first
+principles approach.
+
+The only issue was between
+[Eshaan](https://www.linkedin.com/in/eshaanrampal/) and me
+([Arjun](https://www.linkedin.com/in/arjunsinghkumar/)) there were two
+sets of first principles; the first was a bottom-up approach to break
+down the car into its components and figure out what alternate use cases
+we could come up with for each part.
+
+The other included looking at the various needs and opportunities that
+existed in the current automotive model from ownership to usage and
+disposal. We decided to go forward with both and use the overlap of the
+two analyses to come up with a comprehensive solution.
+
+Based on the two approaches, we would get a bird's eye view of our
+playing field, but adding constraints was equally important. We went
+through research papers ¹ ² ³ that presented the potential adoption of
+Autonomous vehicles in 15 years, the likely wattage of power generated
+by vehicles, and even the computing resources available at the time to
+finally constrain our imagination. These constraints include identifying
+the current resources and using known growth multipliers to estimate the
+potential resource cap each vehicle carried.
+
+We forecasted based on current trends, that a fully autonomous vehicle
+might consume upwards of 840W an hour and produce over a TB of data in a
+30-minute drive while having low latency network connectivity sharing
+data in speeds \>3GBps.
+
+## 1.5 Derived insights
+
+**Americans spend around 10% of their annual income on gas and
+vehicles⁶, a depreciating liability that is used for less than 11 hours
+a week ⁷ and this cost of ownership and maintenance is touted to keep
+increasing.**
+
+1.  The car in 15, is going to be much more expensive due to its
+    automation sophistication. It will consequently have a much higher
+    burden on its owner. In 2012, the cost of the average car was USD
+    30k, while a decade later it stands at USD 48k, a staggering 60%
+    increase in a decade. If this trend continues the car is going to
+    continue to become out of reach for more and more Americans.
+2.  The vehicle itself is underutilized. We understand free markets move
+    towards higher efficiencies. A 95% wastage is inefficient for the
+    end consumer as well as from a resource standpoint. Take data, a
+    small subset of the resource available as an example. An assessment
+    of sensor data provided us insight into the sheer magnitude of
+    direct and indirect data being generated, portions of which could be
+    sold to the right buyer.
+3.  The current subsidy for electric vehicles will reduce as ownership
+    rates climb, reducing the monetary offset over gasoline. With more
+    vehicles being plugged into the grid, the effective running costs
+    will spike too. Teslas till 2018 were charged basically for free,
+    but with better adoptions, these subsidies stopped.
+
+![](https://miro.medium.com/v2/resize:fit:700/1*M0eOT-fGivE8OChoWuq2OQ.png)
+
+**Car from Future by Meta AI. We asked it to make it unaffordable and
+expensive to run. This looks pretty but not for the common man.**
+
+## 2.0 Vision 2035
+
+## 2.1 What \$AAPL got right but \$BB and \$NOK didn't
+
+As [Adri](https://www.linkedin.com/in/adrimr) rightly noted this last
+piece is important for you to understand our choices ahead. How does a
+400\$ Nokia (the 1990s) barely capable of sending text turn into the
+mail and an internet-powered BlackBerry (the 2000s) which then turns
+into the 1100\$ iPhone 14 Pro Max (post 2010s) capable of shooting 4K
+videos live and mapping 3D models using LiDar sensors? Three factors.
+
+1.  **Technological advancement and sensor integration**\
+    The improvements in silicon for computing performance and efficiency
+    provided infrastructure for more complex and intensive applications.
+    More sensors unlocked use cases traditionally reserved for
+    specialized devices. The fact the phone has become a credit card
+    (NFC), a camera, and a navigation device (GPS) replacing 10s of
+    devices is living proof of this trend.\
+    **Key Learning:** Develop the infrastructure of the vehicle in a
+    manner that provides for newer use cases and helps absorb alternate
+    vehicles. The Ford F150 is used to tow, perform farming tasks, and
+    carry loads is what made it ubiquitous as the multi-utility vehicle
+    in agro, construction, and maintenance.
+2.  **App Ecosystems and Developer Innovation\
+    **Have you heard the phrase, I have an idea for an app? Which
+    historically was, I have an idea for a company. The shift in the
+    accessibility of developing apps to create businesses is a direct
+    outcome of incentivizing partners in the platform ecosystem. A
+    company can either make one thing well or a lot of things kind of
+    well. The beauty of incentivizing others to come up with ideas and
+    undertake their development allows companies to explore a much wider
+    search space at a fraction of the cost. By incentivizing others to
+    build atop your infrastructure the platform becomes more valuable
+    with more users, which in turn incentivizes more people to develop.
+    The positive feedback loop created is the key driver of innovation.\
+    **Key Learning:** Make sure to incentivize players to build atop
+    your infrastructure and develop a platform that allows more and more
+    people to try out new business models.
+3.  **User Adoption and Cultural Shift\
+    **The market itself has had to evolve in its usage as a result of
+    this. Selfies, social media, and mobile gaming are all emergent
+    trends from smartphone adoption. The entire gig economy that came up
+    was the outcome of the smartphone being owned by virtually every
+    single one of us.\
+    **Key Learning:** Ensure to promote the proponents of adoption and
+    growth in the developed platform. Being aware of evolving habits and
+    usage can help position the platform closer to user needs.
+
+We wanted to use a similar framework because we see a parallel between
+the advancement of phones and cars. It's not so much so the car is an
+iPad with wheels, but it does have resources with fantastic potential
+use cases that can only be explored by incentivizing developers to come
+together and try out new business models and ideas.
+
+## 2.2 Car today, market tomorrow
+
+The reason for the exponential increase in functionality of the
+smartphone was not Steve Jobs carefully identifying user patterns from
+every activity a human can do and augmenting it with technology. That
+approach is great when the need is specific but when developing the
+vision for the future of a platform it has to be so much more than that.
+It's similar to building a city as a planner. You don't need to say
+where UPMC will be set up and where Target will be set up, but you need
+to provide space for people to buy groceries and get treatment. **This
+is similar in the sense we know what can be put up for usage, rent, and
+purchase inside a car but we don't know exactly how.** It is also
+impractical to say in one iteration I would go to this utopian
+distributed ownership model of a car where its components are up for
+rent by whoever requires it.
+
+**A more iterative process where value is created and systematically
+sold to potential buyers and where a 3rd party develops the use case is
+more likely to bear fruit as it reduces the burden of developing the
+right product on the manufacturer who is already burdened with creating
+and selling cars. This model is a mirror of the app stores we see on the
+iOS and Android Platforms.**
+
+## 2.3 Components in the Marketplace
+
+**The underlying theme of the marketplace is to provide earning
+opportunities to the end owners of their cars.**
+
+We perceive the vehicle as a layered entity. At its core are systems
+(foundational layer) that work together to perform a task (capability
+layer) which can then be used to provide a service.
+
+![](https://miro.medium.com/v2/resize:fit:700/0*v9ShiHwUP85A6_oO)
+
+**A layered view of the Platform showcasing how services can be built
+atop existing capabilities and infrastructure**
+
+Let's visualize this stack with the example of a current self-driving
+taxi such as
+
+using Jaguar cars.
+
+**Infrastructure Layer** --- Cameras, Compute, Networks, LiDAR, and
+Actuators collect information, process it, and provide inputs to
+steering, braking, and Motors. Deciding what goes into this layer is the
+most important decision for the auto manufacturer (Jaguar) to make.
+Whether the car should have expanded storage, advanced sensors, or
+removable battery packs which can give rise to a host of services is a
+calculated decision that has to be made keeping in mind evolving market
+trends and user needs.
+
+**Capability Layer ---** The above systems work together to perceive the
+environment (Computer Vision), and make decisions on how to drive
+(Autonomous Decision Making) and these systems work together to give us
+the umbrella capability of Autonomous Driving. This layer could fall
+under the purview of the auto manufacturer (Jaguar) or the 3rd party (
+
+). Access to a car's networking components can provide the creation of
+new capabilities such as mobile hotspots which businesses such as
+
+can leverage to create low-cost mobile networks.
+
+**Service Layer ---** This layer is the exposed business layer of the
+marketplace. Its primary objective is to leverage the lower foundational
+and capability layers to provide a service. **This is the layer where
+the money lies.**
+
+can use the infrastructure provided by Jaguar Cars to create distributed
+taxi services that can earn for them.
+
+## 2.4 Incentivising the right outcome
+
+> Show me the incentive, and I will show you the outcome \~Charlie
+> Munger
+
+Like all businesses, this marketplace is an exchange of services for
+money, with three players involved. The auto manufacturing company that
+develops the marketplace, the 3rd party that uses the cars for providing
+services and generating revenue, and the car owners who create income
+for themselves. The automotive company sits in between as the mediator
+paying out to customers and pulling in the revenue from 3rd parties.
+
+**The issue? It's cumbersome to keep paying out to customers for
+individual transactions since the effective revenue generated will be
+dynamic and contingent on the demand and supply for the service.**
+
+![](https://miro.medium.com/v2/resize:fit:700/0*QjgMP7kaSrBMqmbk)
+
+**The model proposed can leverage new-age currency models like
+cryptocurrencies to help both customers and 3rd parties manage
+transactions on the platform.**
+
+Consider a car being used for its computing power to develop AI models.
+Depending on the number of cars on the network and the demand for
+computing power, the payout for the transactions is going to vary.
+However, if we set the rate for computing as our own 'credits', the
+customer sees a fixed earning for the task performed by their car. By
+disentangling the actual earnings from transactions on the customer
+side, the auto manufacturers stand to gain two benefits. The cash
+reserves of the company increase, since customers find value by not
+taking out the credits (much like rewards in credit cards), and secondly
+the earnings to the customers can be quantified more consistently and
+interpreted more easily.
+
+## 2.5 Building a marketplace in steps
+
+The marketplace development is divided into stages depending on the
+level of access a non-owner is being given over the vehicle. These
+access rights are similar to security privileges given over a device ie:
+a read mode, a write mode, and an administration mode with each layer
+providing access to more resources to work with.
+
+![](https://miro.medium.com/v2/resize:fit:500/0*zX-hMf35d3G6fl0-.jpg)
+
+Because increased access can bring both benefits and risks to the end
+user, the platform is structured to prioritize the implementation of
+important features in later stages. This approach allows for the
+establishment of robust policies, mechanisms, and regulations to ensure
+user safety. It's important to note that in the earlier stages of the
+platform, where resources may be limited, the percentage of revenue
+distributed to the end user might be lower, but this is balanced by the
+potential for higher returns as the platform develops further.
+
+![](https://miro.medium.com/v2/resize:fit:700/1*XzI5Mxl9n1ywJfNqyu5IwQ.png)
+
+## 2.61 Phase 1 --- Access
+
+The first phase of the platform marketplace is to provide access to
+sensor and telemetry data. This is also the stage where we get the
+development program up and running. This includes setting up the APIs,
+and JDKs that will be exposed to developers. This stage is characterized
+by developing low access and low reward use cases.
+
+Let us consider a use case to better understand how this phase works.
+
+## eg: Hypermiling
+
+In keeping with the original objective, to lower the cost of car
+ownership, we looked at forums, blogs, and YouTube videos and found that
+Hypermiling was a popular concept in directly reducing fuel bills. Users
+went as far as avoiding A/C, forced auto stop (FAS), using low friction
+tires, and using heater seats instead of car heaters, during winters.
+Eventually, we solidified the concept of Hypermiling to be a real-time
+navigation interface, suggesting routes that promise both immediate and
+long-term cost benefits. Hypermiling was not just another navigation app
+but an experience built atop it.
+
+![](https://miro.medium.com/v2/resize:fit:700/0*q9WFpEXwwiEI80ko)
+
+Our options ranged from integrating Hypermiling into a native mapping
+solution to partnering with existing navigation applications like Google
+Maps, HERE Maps, or Waze within a B2B marketplace.
+
+![](https://miro.medium.com/v2/resize:fit:700/0*MjkiMMGMNTUtFJ7U)
+
+**High-Level Design of a Hypermiling service.**
+
+The goal is to reduce the cost of car ownership. One of the solutions
+evaluated was to reduce fuel bills by maximizing fuel efficiency. To
+achieve the same we gathered telemetry data available from the car and
+mapped it to features it could support. Some of the proposed features
+are alternate routes, driving style, speed to reduce energy cost,
+driving style and speed to extend maintenance schedules, suggesting
+routes with cheaper charging locations, and routes that help to extend
+battery life. Eventually, we solidified the concept of Hypermiling to be
+a real-time navigation interface, suggesting routes that promise both
+immediate and long-term cost benefits.
+
+## 2.62 Phase 2 --- Borrow
+
+The second phase of the marketplace is to allow 3rd parties to borrow
+compute, battery, and network resources. This phase has more
+opportunities for returns owing to the greater access being provided to
+developers.
+
+Let us visualize a potential use case in this stage, Cluster computing.
+
+## eg: Cluster Computing
+
+The progression of computational power in pursuit of autonomous vehicles
+opens up the possibility of cars functioning as affordable, virtual
+machines accessible to anyone. This is particularly advantageous for
+researchers and tech startups with limited resources, eliminating the
+need to invest in costly computing resources or cloud services. The
+computational capabilities of a car can cater to various needs,
+including data analysis, machine learning model training, and scalable
+simulation and testing.
+
+![](https://miro.medium.com/v2/resize:fit:700/0*n6DVhgT4kw3oTRGU)
+
+**Value flow that we envisioned could happen in a compute power
+marketplace ecosystem**
+
+From a B2B perspective, tapping into the lucrative and high-margin
+business of computing services, cloud providers can explore cars as a
+more cost-effective, short-term product offering compared to traditional
+server racks. Looking ahead, with the widespread availability of very
+low latency and high-bandwidth networks, a network of cars could serve
+as a grid computing network. This expansion of computing capabilities
+opens doors for diverse applications, such as complex AI algorithms and
+processing consensus/validation tasks in blockchain.
+
+## 2.63 Phase 3--- Use
+
+This is the most ambitious stage of the marketplace with the intent of
+effectively setting up the car for whatever is required by the business
+model and compensating the owner the best. However,
+[Charu](https://www.linkedin.com/in/charu-dixit/) rightly had concerns
+about the implications of such deep integration. Since this layer has
+deep access to the core systems of the vehicle it poses safety risks to
+the end users, due to which it needs strong guardrails for its
+development and testing.
+
+## eg: Dynamic Shared Mobility
+
+The primary aim is to empower vehicle owners to capitalize on unused
+commuting time or periods when their vehicles are idle. By doing so, we
+envision the creation of a vibrant, interconnected mobility network that
+enhances the overall efficiency of transportation services. This network
+would enable owners to seamlessly offer rides during their daily
+commutes or whenever their vehicles are not actively utilized, fostering
+a dynamic and mutually beneficial system.
+
+![](https://miro.medium.com/v2/resize:fit:700/1*367RLz7aI6ghi9GdEJZa8w.png)
+
+**In a distributed mobility platform, when you're at work, your car is
+moving goods and people leading to better utilization and lower cost of
+ownership.**
+
+Through this initiative, we aspire to unlock the full potential of
+shared mobility, allowing owners to generate additional income while
+contributing to the development of a more interconnected and accessible
+transportation network.
+
+## 3.0 Conclusion
+
+In conclusion, the automotive industry is on the cusp of significant
+transformation, moving beyond the traditional Internal Combustion Engine
+(ICE) technology. The emergence of Advanced Driver Assistance Systems
+(ADAS), coupled with the increasing influence of electric vehicles, is
+reshaping the landscape. However, this evolution comes with challenges,
+particularly the rising cost of ownership, putting a strain on
+consumers. The historical analysis underscores the importance of
+efficient manufacturing processes and global competition in shaping the
+industry.
+
+Looking ahead to Vision 2035, the blueprint involves treating vehicles
+as multi-layered platforms, with components available for rent or sale.
+By incentivizing developers and fostering an app ecosystem, the aim is
+to unlock the full potential of cars, mirroring the success seen in
+smartphones. The proposed marketplace envisions stages of access, from
+data sharing to resource borrowing and, ultimately, deep integration for
+various business models. The strategy of compensating owners for unused
+commuting time exemplifies the goal of creating a dynamic and mutually
+beneficial transportation network. Through this approach, the vision is
+to make future cars more affordable, valuable, and aligned with evolving
+market needs.
