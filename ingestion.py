@@ -11,7 +11,7 @@ if __name__ == '__main__':
     print("Ingestion started")
 
     loader = TextLoader(
-        "/Users/sudikonda/Developer/Python/medium-blogs-vectordb/data/What_does_the_car_in_2035_ look_like.txt",
+        os.getenv("MEDIUM_BLOGS_FILE_PATH"),
         encoding="utf-8"
     )
 

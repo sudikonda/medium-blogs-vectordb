@@ -12,6 +12,8 @@ langchainhub = "*"
 black = "*"
 langchain-community = "*"
 langchain-text-splitters = "*"
+faiss-cpu = "*"
+pypdf = "*"
 
 [dev-packages]
 
